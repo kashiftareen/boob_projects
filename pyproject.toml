@@ -1,0 +1,21 @@
+[project]
+name = "git-demos"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "kashiftareen",email = "kashif.tareen1999@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi (>=0.139.1,<0.140.0)",
+    "uvicorn (>=0.51.0,<0.52.0)"
+]
+
+[tool.poetry.scripts]
+dev = "git_demos.main:start"
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
