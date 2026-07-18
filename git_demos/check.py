@@ -2,7 +2,6 @@ from fastapi import FastAPI
 import uvicorn
 
 app=FastAPI()
-# this test of branches 
 
 def start():
     uvicorn.run("git_demos.main:app",
